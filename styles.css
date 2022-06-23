@@ -1,0 +1,270 @@
+body {
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: white;
+  margin: 0;
+  color: var(--brown);
+}
+
+:root {
+  --gray: #f5f5f5;
+  --gray-2: #e5e5e5;
+  --brown: #464646;
+  --light-blue: #eaf2fd;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 0px;
+  padding: 0px 100px;
+}
+
+.header_1 {
+  display: flex;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.header_2 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  font-size: 16px;
+}
+
+.header_2 > a,
+a:visited {
+  color: var(--brown);
+  text-decoration: none;
+}
+
+/* SOBRE MI */
+
+.about_me {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+
+.about_me_text {
+  display: flex;
+  flex-direction: column;
+  width: 751px;
+}
+
+.about_me_text h1 {
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+.about_me_text p {
+  font-size: 20px;
+}
+
+.about_me_social {
+  display: flex;
+  gap: 30px;
+}
+
+.profile {
+  height: 400px;
+}
+
+.social {
+  width: 40px;
+}
+
+/* DESCRIPCION */
+
+.description {
+  padding: 64px 100px;
+  color: white;
+  height: 50vh;
+  background-color: rgba(109, 78, 107, 0.7);
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description h3 {
+  font-size: 32px;
+}
+
+.description p {
+  font-size: 17px;
+}
+
+/* SKILLS */
+
+.skills {
+  padding: 64px 100px;
+}
+
+.skills h3 {
+  display: grid;
+  justify-content: center;
+  font-size: 32px;
+}
+
+.skills_grid {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skills_grid div {
+  text-align: center;
+}
+
+.skills p {
+  font-weight: 700;
+}
+
+/* FORMACION */
+
+.academic {
+  height: 60vh;
+  background-color: rgba(109, 78, 107, 0.7);
+  padding: 64px 100px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.academic h3 {
+  font-size: 32px;
+}
+
+.academic_flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.academic_image {
+  background-color: white;
+  padding: 50px 80px;
+}
+
+.academic img {
+  width: 110px;
+  height: 110px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+/* PROYECTS */
+
+.proyects {
+  padding: 64px 100px 0px 100px;
+  text-align: center;
+}
+
+.proyects_div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.proyects img {
+  width: 600px;
+}
+
+.proyects h3 {
+  font-size: 32px;
+}
+
+.proyects_title {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.proyects_text {
+  text-align: start;
+}
+
+.btn_white {
+  font-size: 16px;
+  border: 1px solid rgba(109, 78, 107, 0.7);
+  background: none;
+  color: rgba(109, 78, 107, 0.7);
+  padding: 16px;
+  width: 150px;
+}
+
+.btn_violet {
+  font-size: 16px;
+  background: rgba(109, 78, 107, 0.7);
+  color: white;
+  padding: 16px;
+  border: none;
+  width: 150px;
+}
+
+button {
+  cursor: pointer;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+.btn_white > a:visited {
+  color: rgba(109, 78, 107, 0.7);
+}
+
+.btn_violet > a:visited {
+  color: white;
+}
+
+/* CONTACTO */
+
+.contact {
+  padding: 64px 100px;
+  background-color: rgba(109, 78, 107, 0.7);
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact h3 {
+  font-size: 32px;
+}
+
+.contact img {
+  width: 400px;
+}
+
+.contact_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  padding: 3px 100px;
+  background-color: rgba(109, 78, 107, 0.7);
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}

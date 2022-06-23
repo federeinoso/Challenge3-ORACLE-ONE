@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Portfolio</title>
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <header>
+      <div class="header">
+        <div class="header_1">
+          <img src="images/logo_header.svg" id="logo" />
+          <p>Federico Reinoso</p>
+        </div>
+        <d class="header_2">
+          <a href="#description">Sobre mi</a>
+          <a href="#skills">Skills</a>
+          <a href="#academic">Formación</a>
+          <a href="#proyects">Proyectos</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="about_me">
+        <div class="about_me_text">
+          <h1>Hola, soy Federico Reinoso y soy Front End Developer</h1>
+          <p>
+            Hago desarrollo con JavaScript y actualmente estoy participando del
+            proyecto Oracle ONE en Alura Latam.
+          </p>
+          <div class="about_me_social">
+            <a href="https://instagram.com/federeinoso"><img src="images/instagram.svg" class="social" alt=""></a>
+          <a href="https://github.com/federeinoso"><img src="images/github.svg" class="social" alt=""></a>
+          <a href="https://linkedin.com/in/federeinoso"><img src="images/linkedin.svg" class="social" alt=""></a>
+          <a href="mailto:federeinoso01@gmail.com"><img src="images/gmail.svg" class="social" alt=""></a>
+          
+          </div>
+        </div>
+        <img src="images/fotoportfolio.png" alt="profile-picture" class="profile" />
+      </div>
+      <div class="description" id="description">
+        <h3>Sobre mi</h3>
+        <p>
+          Desde chico me apasiona todo lo referido a la tecnologia, mas
+          especificamente el mundo de las computadores. Hace un año decidi darle
+          un giro a mi vida y meterme de lleno en el desarrollo web.
+        </p>
+        <p>
+          Empece mis estudios aprendiendo HTML y CSS para luego continuar con el
+          maravilloso lenguaje JavaScript. Actualmente estoy haciendo proyectos
+          para mejorar mis habilidades. Sigo aprendiendo dia a dia, buscando mi
+          lugar en el mercado laboral.
+        </p>
+      </div>
+      <div class="skills" id="skills">
+        <h3>Skills</h3>
+        <div class="skills_grid">
+          <div>
+            <img src="images/html.svg" alt="html-logo" />
+            <p>HTML</p>
+          </div>
+          <div>
+            <img src="images/css.svg" alt="css-logo" />
+            <p>CSS</p>
+          </div>
+          <div>
+            <img src="images/javascript.svg" alt="javascript-logo" />
+            <p>JavaScript</p>
+          </div>
+          <div>
+            <img src="images/react.svg" alt="react-logo" />
+            <p>React</p>
+          </div>
+        </div>
+      </div>
+      <div class="skills">
+        <h3>Hobbies</h3>
+        <div class="skills_grid">
+          <div>
+            <img src="images/musica.svg" alt="music-logo" />
+            <p>Musica</p>
+          </div>
+          <div>
+            <img src="images/tv.svg" alt="tv-logo" />
+            <p>Peliculas</p>
+          </div>
+          <div>
+            <img src="images/foto.svg" alt="foto-logo" />
+            <p>Fotografia</p>
+          </div>
+          <div>
+            <img src="images/cocinar.svg" alt="cocinar-logo" />
+            <p>Cocina</p>
+          </div>
+        </div>
+      </div>
+      <div class="academic" id="academic">
+        <h3>Formación académica</h3>
+        <div class="academic_flex">
+          <div class="academic_div">
+            <div class="academic_image">
+              <img src="images/free-code-camp-logo.svg" alt="" />
+            </div>
+            <p class="title">freeCodeCamp</p>
+            <p>2021-2022</p>
+          </div>
+          <div class="academic_div">
+            <div class="academic_image">
+              <img src="images/the-odin-proyect.png" alt="" />
+            </div>
+            <p class="title">The Odin Project</p>
+            <p>Actualidad</p>
+          </div>
+          <div class="academic_div">
+            <div class="academic_image">
+              <img src="images/alura.svg" alt="" />
+            </div>
+            <p class="title">Oracle Next Education</p>
+            <p>Actualidad</p>
+          </div>
+        </div>
+      </div>
+      <div class="proyects" id="proyects">
+        <h3>Proyectos</h3>
+        <div class="proyects_flex">
+          <div class="proyects_div">
+            <img src="images/encriptador.png" alt="" />
+            <div class="proyects_text">
+              <p class="proyects_title">Encriptador de texto</p>
+              <p>Challenge One Oracle</p>
+              <button class="btn_white">
+                <a href="https://github.com/federeinoso/Challenge-ORACLE-ONE"
+                  >Repositorio</a
+                >
+              </button>
+              <button class="btn_violet">
+                <a href="https://federeinoso.github.io/Challenge-ORACLE-ONE/"
+                  >Live Preview</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="proyects_div">
+            <div class="proyects_text">
+              <p class="proyects_title">Juego del ahorcado</p>
+              <p>Challenge Two Oracle</p>
+              <button class="btn_white">
+                <a href="https://github.com/federeinoso/Challenge2-ORACLE-ONE"
+                  >Repositorio</a
+                >
+              </button>
+              <button class="btn_violet">
+                <a href="https://federeinoso.github.io/Challenge2-ORACLE-ONE/"
+                  >Live Preview</a
+                >
+              </button>
+            </div>
+            <img src="images/ahorcado.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Portfolio por Federico | Challenge Oracle One</p>
+    </footer>
+  </body>
+  <script src="script.js" defer></script>
+</html>
