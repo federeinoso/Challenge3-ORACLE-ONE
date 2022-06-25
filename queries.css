@@ -1,0 +1,290 @@
+/* MEDIA QUERIES */
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  .profile {
+    height: 200px;
+  }
+
+  .social {
+    width: 30px;
+  }
+
+  .about_me_text h1 {
+    font-size: 38px;
+    margin-bottom: 0px;
+  }
+
+  .about_me_text p {
+    font-size: 18px;
+  }
+
+  .about_me {
+    height: 70vh;
+  }
+
+  .academic {
+    height: 60vh;
+    background-color: var(--violet);
+    padding: 64px 100px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .academic_flex {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .academic_image {
+    background-color: white;
+    padding: 20px 40px;
+  }
+
+  .academic img {
+    width: 90px;
+    height: 90px;
+  }
+
+  /* .proyects img {
+    width: 300px;
+  } */
+
+  .proyects_text {
+    margin: 20px;
+  }
+
+  .btn_white,
+  .btn_violet {
+    margin: 5px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  .skills {
+    padding: 40px 100px;
+  }
+}
+
+/* PHONE */
+
+@media (max-width: 646px) {
+  /* HEADER */
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0px;
+    padding: 0px 40px;
+  }
+
+  .header_1 {
+    gap: 1px;
+    font-size: 1rem;
+  }
+
+  .header_2 {
+    gap: 5px;
+    font-size: 13px;
+  }
+
+  /* SOBRE MI */
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .about_me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 40px;
+  }
+
+  .about_me_text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about_me_text h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  .about_me_text p {
+    font-size: 17px;
+    padding: 0px 20px;
+  }
+
+  .about_me_social {
+    display: flex;
+    gap: 30px;
+  }
+
+  .profile {
+    height: 250px;
+  }
+
+  .social {
+    width: 30px;
+  }
+
+  /* DESCRIPCION */
+
+  .description {
+    height: 100%;
+    color: white;
+    background-color: var(--violet);
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .description p {
+    font-size: 17px;
+  }
+
+  /* SKILLS */
+
+  .skills {
+    padding: 0px;
+  }
+
+  .skills h3 {
+    display: grid;
+    justify-content: center;
+  }
+
+  .skills_grid {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .skills_grid div {
+    text-align: center;
+  }
+
+  .skills p {
+    font-weight: 700;
+  }
+
+  /* FORMACION */
+
+  .academic {
+    background-color: var(--violet);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .academic_flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .academic_image {
+    background-color: white;
+    padding: 20px 60px;
+  }
+
+  .academic img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .title {
+    font-weight: 700;
+  }
+
+  /* PROYECTS */
+
+  .proyects {
+    padding: 20px 10px;
+  }
+
+  .proyects_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    flex: wrap;
+  }
+
+  /* .proyects img {
+    width: ;
+  } */
+
+  .proyects_title {
+    font-size: 20px;
+    font-weight: 700;
+    grid-area: title;
+  }
+
+  .proyects_text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "title title"
+      "text text"
+      "btn1 btn2";
+  }
+
+  .proyects_desc {
+    grid-area: text;
+  }
+
+  .btn_white {
+    grid-area: btn1;
+    font-size: 14px;
+    padding: 16px;
+    width: 150px;
+  }
+
+  .btn_violet {
+    grid-area: btn2;
+    font-size: 14px;
+    padding: 16px;
+    width: 150px;
+  }
+
+  footer {
+    padding: 3px 0px;
+  }
+}
+
+/* PHONE SMALL SIZE */
+
+@media (max-width: 465px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 343px) {
+  .proyects_text {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "title title"
+      "text text"
+      "btn1 btn1"
+      "btn2 btn2";
+  }
+}
