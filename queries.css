@@ -86,7 +86,6 @@
   }
 
   .header_1 {
-    gap: 1px;
     font-size: 1rem;
   }
 
@@ -94,6 +93,10 @@
     gap: 5px;
     font-size: 13px;
     gap: 20px;
+  }
+
+  .header_2 a {
+    padding: 10px;
   }
 
   /* SOBRE MI */
@@ -129,6 +132,7 @@
 
   .about_me_social {
     display: flex;
+    justify-content: space-around;
     gap: 30px;
   }
 
@@ -139,6 +143,7 @@
 
   .social {
     width: 30px;
+    margin: 0 15px;
   }
 
   /* DESCRIPCION */
